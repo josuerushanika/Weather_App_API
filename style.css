@@ -28,10 +28,42 @@ body {
 
 .date-container .time {
     font-size: 70px;
-    font-weight: 100;
+    /* font-weight: 100; */
 }
 
 .date-container #am-pm {
     font-size: 30px;
+    margin-left: 20px;
 }
+
+.date-container .date {
+    font-size: 30px;
+}
+
+.place-container{
+    text-align: end;
+}
+
+.place-container .time-zone {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.place-container .country {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.current-info .others {
+    display: flex;
+    flex-direction: column;
+}
+
+.current-info .others .weather-item {
+    display: flex;
+    justify-content: space-between;
+    /* 20'15 */
+}
+
+
 
